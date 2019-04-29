@@ -1230,3 +1230,1664 @@ Reduced 14 texdatas to 13 (359 bytes to 333)
 Writing c:\users\ujiiiiiiiiiiiiiiiiii\documents\github\de_corked\de_corked.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ujiiiiiiiiiiiiiiiiii\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
 2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 20
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (119693 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 406 texinfos to 281
+Reduced 19 texdatas to 18 (498 bytes to 472)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 610 portalclusters
+1700 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 387 visible clusters (0.00%)
+Total clusters visible: 128673
+Average clusters visible: 210
+Building PAS...
+Average clusters audible: 521
+visdatasize:89192  compressed from 97600
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2173 faces
+115227 square feet [16592720.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2173 patches before subdivision
+14609 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1460444, max 543
+transfer lists:  11.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64128, 64326, 63331)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16365, 16474, 15813)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4607, 4661, 4341)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1327, 1351, 1217)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(392, 402, 349)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(117, 121, 102)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 37, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                307/8192         3684/98304    ( 3.7%) 
+brushsides            2058/81920       16464/655360   ( 2.5%) 
+planes                1070/65536       21400/1310720  ( 1.6%) 
+vertexes              3356/65536       40272/786432   ( 5.1%) 
+nodes                 1322/65536       42304/2097152  ( 2.0%) 
+texinfos               281/12288       20232/884736   ( 2.3%) 
+texdata                 18/4096          576/131072   ( 0.4%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2173/65536      121688/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1080/65536       60480/3670016  ( 1.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists        2173/0            8692/0        ( 0.0%) 
+leaves                1327/65536       42464/2097152  ( 2.0%) 
+leaffaces             2394/65536        4788/131072   ( 3.7%) 
+leafbrushes            836/65536        1672/131072   ( 1.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14982/512000      59928/2048000  ( 2.9%) 
+edges                 8394/256000      33576/1024000  ( 3.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            192/32768        1920/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3273/65536        6546/131072   ( 5.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      742772/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       89192/16777216 ( 0.5%) 
+entdata               [variable]        4959/393216   ( 1.3%) 
+LDR ambient table     1327/65536        5308/262144   ( 2.0%) 
+HDR ambient table     1327/65536        5308/262144   ( 2.0%) 
+LDR leaf ambient      3451/65536       96628/1835008  ( 5.3%) 
+HDR leaf ambient      1327/65536       37156/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8084     ( 0.0%) 
+pakfile               [variable]       75221/0        ( 0.0%) 
+physics               [variable]      119693/4194304  ( 2.9%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6232
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 21
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-182.00 -642.00 62.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120271 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 395 texinfos to 283
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 21
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-182.00 -642.00 62.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120271 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 395 texinfos to 283
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 22
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120287 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 395 texinfos to 277
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 638 portalclusters
+1817 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 401 visible clusters (0.00%)
+Total clusters visible: 143903
+Average clusters visible: 225
+Building PAS...
+Average clusters audible: 552
+visdatasize:98592  compressed from 102080
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+10 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2191 faces
+114545 square feet [16494485.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2191 patches before subdivision
+14703 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1536263, max 591
+transfer lists:  11.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64853, 65015, 63966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16569, 16661, 15970)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4654, 4703, 4375)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1338, 1362, 1225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(394, 404, 351)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(118, 122, 102)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(36, 37, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                313/8192         3756/98304    ( 3.8%) 
+brushsides            2078/81920       16624/655360   ( 2.5%) 
+planes                1032/65536       20640/1310720  ( 1.6%) 
+vertexes              3216/65536       38592/786432   ( 4.9%) 
+nodes                 1286/65536       41152/2097152  ( 2.0%) 
+texinfos               277/12288       19944/884736   ( 2.3%) 
+texdata                 19/4096          608/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2191/65536      122696/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1102/65536       61712/3670016  ( 1.7%) 
+facebrushes            139/0             278/0        ( 0.0%) 
+facebrushlists        2191/0            8764/0        ( 0.0%) 
+leaves                1290/65536       41280/2097152  ( 2.0%) 
+leaffaces             2405/65536        4810/131072   ( 3.7%) 
+leafbrushes            799/65536        1598/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15093/512000      60372/2048000  ( 2.9%) 
+edges                 8502/256000      34008/1024000  ( 3.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            165/32768        1650/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2820/65536        5640/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      744832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       98592/16777216 ( 0.6%) 
+entdata               [variable]        4220/393216   ( 1.1%) 
+LDR ambient table     1290/65536        5160/262144   ( 2.0%) 
+HDR ambient table     1290/65536        5160/262144   ( 2.0%) 
+LDR leaf ambient      3561/65536       99708/1835008  ( 5.4%) 
+HDR leaf ambient      1290/65536       36120/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8070     ( 0.0%) 
+pakfile               [variable]       75221/0        ( 0.0%) 
+physics               [variable]      120287/4194304  ( 2.9%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6219
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 23
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (160.00 -136.00 80.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (126975 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 421 texinfos to 298
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 24
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (127351 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 421 texinfos to 292
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 632 portalclusters
+1795 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 627 visible clusters (0.00%)
+Total clusters visible: 142905
+Average clusters visible: 226
+Building PAS...
+Average clusters audible: 551
+visdatasize:95487  compressed from 101120
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+9 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2234 faces
+115840 square feet [16681085.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2234 patches before subdivision
+15142 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1554966, max 603
+transfer lists:  11.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64920, 65092, 64057)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16520, 16617, 15933)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4632, 4683, 4358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1325, 1349, 1214)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(389, 399, 347)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(116, 120, 100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 36, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                332/8192         3984/98304    ( 4.1%) 
+brushsides            2194/81920       17552/655360   ( 2.7%) 
+planes                1076/65536       21520/1310720  ( 1.6%) 
+vertexes              3291/65536       39492/786432   ( 5.0%) 
+nodes                 1285/65536       41120/2097152  ( 2.0%) 
+texinfos               292/12288       21024/884736   ( 2.4%) 
+texdata                 19/4096          608/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2234/65536      125104/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1145/65536       64120/3670016  ( 1.7%) 
+facebrushes            143/0             286/0        ( 0.0%) 
+facebrushlists        2234/0            8936/0        ( 0.0%) 
+leaves                1289/65536       41248/2097152  ( 2.0%) 
+leaffaces             2431/65536        4862/131072   ( 3.7%) 
+leafbrushes            802/65536        1604/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15489/512000      61956/2048000  ( 3.0%) 
+edges                 8744/256000      34976/1024000  ( 3.4%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            172/32768        1720/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2970/65536        5940/131072   ( 4.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      755256/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       95487/16777216 ( 0.6%) 
+entdata               [variable]        4220/393216   ( 1.1%) 
+LDR ambient table     1289/65536        5156/262144   ( 2.0%) 
+HDR ambient table     1289/65536        5156/262144   ( 2.0%) 
+LDR leaf ambient      3616/65536      101248/1835008  ( 5.5%) 
+HDR leaf ambient      1289/65536       36092/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8078     ( 0.0%) 
+pakfile               [variable]       75221/0        ( 0.0%) 
+physics               [variable]      127351/4194304  ( 3.0%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6357
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 25
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (127055 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 417 texinfos to 289
+Reduced 20 texdatas to 19 (515 bytes to 489)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 596 portalclusters
+1790 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 519 visible clusters (0.00%)
+Total clusters visible: 149619
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 536
+visdatasize:86107  compressed from 95360
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2107 faces
+116095 square feet [16717716.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2107 patches before subdivision
+15125 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1501092, max 557
+transfer lists:  11.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61912, 62077, 61062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15458, 15546, 14890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4268, 4313, 4007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1208, 1229, 1105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(352, 361, 314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(105, 108, 91)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(31, 33, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 10, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                331/8192         3972/98304    ( 4.0%) 
+brushsides            2184/81920       17472/655360   ( 2.7%) 
+planes                1076/65536       21520/1310720  ( 1.6%) 
+vertexes              3076/65536       36912/786432   ( 4.7%) 
+nodes                 1182/65536       37824/2097152  ( 1.8%) 
+texinfos               289/12288       20808/884736   ( 2.4%) 
+texdata                 19/4096          608/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2107/65536      117992/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1141/65536       63896/3670016  ( 1.7%) 
+facebrushes            118/0             236/0        ( 0.0%) 
+facebrushlists        2107/0            8428/0        ( 0.0%) 
+leaves                1186/65536       37952/2097152  ( 1.8%) 
+leaffaces             2312/65536        4624/131072   ( 3.5%) 
+leafbrushes            729/65536        1458/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14783/512000      59132/2048000  ( 2.9%) 
+edges                 8390/256000      33560/1024000  ( 3.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            160/32768        1600/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2655/65536        5310/131072   ( 4.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      725704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       86107/16777216 ( 0.5%) 
+entdata               [variable]        4220/393216   ( 1.1%) 
+LDR ambient table     1186/65536        4744/262144   ( 1.8%) 
+HDR ambient table     1186/65536        4744/262144   ( 1.8%) 
+LDR leaf ambient      3678/65536      102984/1835008  ( 5.6%) 
+HDR leaf ambient      1186/65536       33208/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8378     ( 0.0%) 
+pakfile               [variable]       75221/0        ( 0.0%) 
+physics               [variable]      127055/4194304  ( 3.0%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 5921
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 27
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (135529 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 473 texinfos to 313
+Reduced 23 texdatas to 21 (610 bytes to 547)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 615 portalclusters
+1793 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 458 visible clusters (0.00%)
+Total clusters visible: 174751
+Average clusters visible: 284
+Building PAS...
+Average clusters audible: 569
+visdatasize:92583  compressed from 98400
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2196 faces
+112297 square feet [16170871.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2196 patches before subdivision
+14574 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1491963, max 673
+transfer lists:  11.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44195, 44300, 43336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11010, 11084, 10559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2978, 3011, 2803)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(842, 854, 779)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(246, 250, 224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(74, 75, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(22, 23, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 7, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                358/8192         4296/98304    ( 4.4%) 
+brushsides            2370/81920       18960/655360   ( 2.9%) 
+planes                1078/65536       21560/1310720  ( 1.6%) 
+vertexes              3163/65536       37956/786432   ( 4.8%) 
+nodes                 1198/65536       38336/2097152  ( 1.8%) 
+texinfos               313/12288       22536/884736   ( 2.5%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2196/65536      122976/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1179/65536       66024/3670016  ( 1.8%) 
+facebrushes            118/0             236/0        ( 0.0%) 
+facebrushlists        2196/0            8784/0        ( 0.0%) 
+leaves                1202/65536       38464/2097152  ( 1.8%) 
+leaffaces             2404/65536        4808/131072   ( 3.7%) 
+leafbrushes            741/65536        1482/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15274/512000      61096/2048000  ( 3.0%) 
+edges                 8856/256000      35424/1024000  ( 3.5%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            149/32768        1490/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2427/65536        4854/131072   ( 3.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      735488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       92583/16777216 ( 0.6%) 
+entdata               [variable]        4233/393216   ( 1.1%) 
+LDR ambient table     1202/65536        4808/262144   ( 1.8%) 
+HDR ambient table     1202/65536        4808/262144   ( 1.8%) 
+LDR leaf ambient      3239/65536       90692/1835008  ( 4.9%) 
+HDR leaf ambient      1202/65536       33656/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8608     ( 0.0%) 
+pakfile               [variable]      150276/0        ( 0.0%) 
+physics               [variable]      135529/4194304  ( 3.2%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6086
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 28
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-40.00 -392.00 126.28) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144577 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 512 texinfos to 345
+Reduced 24 texdatas to 22 (635 bytes to 572)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 28
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-40.00 -392.00 126.28) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144577 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 512 texinfos to 345
+Reduced 24 texdatas to 22 (635 bytes to 572)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 29
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-40.00 -392.00 126.28) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144545 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 512 texinfos to 344
+Reduced 24 texdatas to 22 (635 bytes to 572)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 30
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144545 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 512 texinfos to 338
+Reduced 24 texdatas to 22 (635 bytes to 572)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 626 portalclusters
+1833 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 792 visible clusters (0.00%)
+Total clusters visible: 184458
+Average clusters visible: 294
+Building PAS...
+Average clusters audible: 585
+visdatasize:96283  compressed from 100160
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2270 faces
+110627 square feet [15930356.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2270 patches before subdivision
+14520 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1528194, max 581
+transfer lists:  11.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44551, 44587, 43529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10844, 10883, 10312)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2876, 2898, 2675)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(802, 811, 731)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(232, 236, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 70, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(21, 21, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 7, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                385/8192         4620/98304    ( 4.7%) 
+brushsides            2532/81920       20256/655360   ( 3.1%) 
+planes                1092/65536       21840/1310720  ( 1.7%) 
+vertexes              3256/65536       39072/786432   ( 5.0%) 
+nodes                 1211/65536       38752/2097152  ( 1.8%) 
+texinfos               338/12288       24336/884736   ( 2.8%) 
+texdata                 22/4096          704/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2270/65536      127120/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1235/65536       69160/3670016  ( 1.9%) 
+facebrushes            144/0             288/0        ( 0.0%) 
+facebrushlists        2270/0            9080/0        ( 0.0%) 
+leaves                1215/65536       38880/2097152  ( 1.9%) 
+leaffaces             2480/65536        4960/131072   ( 3.8%) 
+leafbrushes            762/65536        1524/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15826/512000      63304/2048000  ( 3.1%) 
+edges                 9227/256000      36908/1024000  ( 3.6%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2532/65536        5064/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      737868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       96283/16777216 ( 0.6%) 
+entdata               [variable]        4233/393216   ( 1.1%) 
+LDR ambient table     1215/65536        4860/262144   ( 1.9%) 
+HDR ambient table     1215/65536        4860/262144   ( 1.9%) 
+LDR leaf ambient      3392/65536       94976/1835008  ( 5.2%) 
+HDR leaf ambient      1215/65536       34020/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9186     ( 0.0%) 
+pakfile               [variable]      150276/0        ( 0.0%) 
+physics               [variable]      144545/4194304  ( 3.4%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6269
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 31
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_counterterrorist (1087.43 -1744.71 9.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (143873 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 514 texinfos to 347
+Reduced 23 texdatas to 21 (618 bytes to 555)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 32
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (143873 bytes)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 513 texinfos to 335
+Reduced 23 texdatas to 21 (618 bytes to 555)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 628 portalclusters
+1826 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 822 visible clusters (0.00%)
+Total clusters visible: 184986
+Average clusters visible: 294
+Building PAS...
+Average clusters audible: 587
+visdatasize:96160  compressed from 100480
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+2266 faces
+109728 square feet [15800967.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+2266 patches before subdivision
+14502 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1522800, max 606
+transfer lists:  11.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44600, 44636, 43581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10868, 10906, 10336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2882, 2903, 2681)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(803, 812, 732)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(233, 236, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 70, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(21, 21, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 7, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                383/8192         4596/98304    ( 4.7%) 
+brushsides            2520/81920       20160/655360   ( 3.1%) 
+planes                1082/65536       21640/1310720  ( 1.7%) 
+vertexes              3259/65536       39108/786432   ( 5.0%) 
+nodes                 1238/65536       39616/2097152  ( 1.9%) 
+texinfos               335/12288       24120/884736   ( 2.7%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 2266/65536      126896/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1226/65536       68656/3670016  ( 1.9%) 
+facebrushes            146/0             292/0        ( 0.0%) 
+facebrushlists        2266/0            9064/0        ( 0.0%) 
+leaves                1242/65536       39744/2097152  ( 1.9%) 
+leaffaces             2490/65536        4980/131072   ( 3.8%) 
+leafbrushes            810/65536        1620/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15761/512000      63044/2048000  ( 3.1%) 
+edges                 9193/256000      36772/1024000  ( 3.6%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            154/32768        1540/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2529/65536        5058/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      728540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       96160/16777216 ( 0.6%) 
+entdata               [variable]        4233/393216   ( 1.1%) 
+LDR ambient table     1242/65536        4968/262144   ( 1.9%) 
+HDR ambient table     1242/65536        4968/262144   ( 1.9%) 
+LDR leaf ambient      3365/65536       94220/1835008  ( 5.1%) 
+HDR leaf ambient      1242/65536       34776/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9644     ( 0.0%) 
+pakfile               [variable]      150276/0        ( 0.0%) 
+physics               [variable]      143873/4194304  ( 3.4%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 6248
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 35
+Patching WVT material: maps/de_corked/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (672.00 284.00 -50.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (179694 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 636 texinfos to 419
+Reduced 27 texdatas to 24 (767 bytes to 669)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 36
+Patching WVT material: maps/de_corked/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1020.00 180.00 -16.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (180086 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 636 texinfos to 419
+Reduced 27 texdatas to 24 (767 bytes to 669)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+LoadPortals: couldn't read c:\users\mike\documents\github\de_corked\de_corked.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 37
+Patching WVT material: maps/de_corked/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (180086 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 636 texinfos to 410
+Reduced 27 texdatas to 24 (767 bytes to 669)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+ 980 portalclusters
+3256 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2135 visible clusters (0.00%)
+Total clusters visible: 472915
+Average clusters visible: 482
+Building PAS...
+Average clusters audible: 906
+visdatasize:216916  compressed from 250880
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+2 minutes, 29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+3272 faces
+114457 square feet [16481828.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+3272 patches before subdivision
+16042 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2286373, max 771
+transfer lists:  17.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(49950, 49939, 48733)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12376, 12381, 11762)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3256, 3262, 3028)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(895, 898, 817)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(255, 256, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(75, 75, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(22, 22, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 7, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                478/8192         5736/98304    ( 5.8%) 
+brushsides            3163/81920       25304/655360   ( 3.9%) 
+planes                1384/65536       27680/1310720  ( 2.1%) 
+vertexes              4841/65536       58092/786432   ( 7.4%) 
+nodes                 1801/65536       57632/2097152  ( 2.7%) 
+texinfos               410/12288       29520/884736   ( 3.3%) 
+texdata                 24/4096          768/131072   ( 0.6%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 3272/65536      183232/3670016  ( 5.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1608/65536       90048/3670016  ( 2.5%) 
+facebrushes            202/0             404/0        ( 0.0%) 
+facebrushlists        3272/0           13088/0        ( 0.0%) 
+leaves                1805/65536       57760/2097152  ( 2.8%) 
+leaffaces             3636/65536        7272/131072   ( 5.5%) 
+leafbrushes           1144/65536        2288/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            22394/512000      89576/2048000  ( 4.4%) 
+edges                12735/256000      50940/1024000  ( 5.0%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            222/32768        2220/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3768/65536        7536/131072   ( 5.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      920972/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      216916/16777216 ( 1.3%) 
+entdata               [variable]        4233/393216   ( 1.1%) 
+LDR ambient table     1805/65536        7220/262144   ( 2.8%) 
+HDR ambient table     1805/65536        7220/262144   ( 2.8%) 
+LDR leaf ambient      5007/65536      140196/1835008  ( 7.6%) 
+HDR leaf ambient      1805/65536       50540/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10766    ( 0.0%) 
+pakfile               [variable]      150624/0        ( 0.0%) 
+physics               [variable]      180086/4194304  ( 4.3%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 9340
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Mike\Documents\GitHub\de_corked\de_corked.vmf
+Map revision 40
+Patching WVT material: maps/de_corked/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/de_corked/brick/hr_brick/inferno/brick_d_blend_wvt_patch
+Patching WVT material: maps/de_corked/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (201156 bytes)
+Static prop models/props/de_dust/hr_dust/foliage/weed_grass_01a.mdl outside the map (720.00, 108.00, 88.00)
+Static prop models/props/de_dust/hr_dust/foliage/weed_grass_01a.mdl outside the map (668.00, 156.00, 88.00)
+Static prop models/props/de_dust/hr_dust/foliage/weed_grass_01a.mdl outside the map (612.00, 208.00, 88.00)
+Static prop models/props/de_dust/hr_dust/foliage/weed_grass_01a.mdl outside the map (544.00, 272.00, 88.00)
+Error! prop_static using model "models/props_junk/glassbottle01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_junk/glassbottle01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 702 texinfos to 452
+Reduced 27 texdatas to 24 (767 bytes to 669)
+Writing C:\Users\Mike\Documents\GitHub\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\mike\documents\github\de_corked\de_corked.bsp
+reading c:\users\mike\documents\github\de_corked\de_corked.prt
+1073 portalclusters
+3622 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3598 visible clusters (0.00%)
+Total clusters visible: 553309
+Average clusters visible: 515
+Building PAS...
+Average clusters audible: 982
+visdatasize:264933  compressed from 291856
+writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+4 minutes, 27 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\mike\documents\github\de_corked\de_corked.bsp
+3587 faces
+189185 square feet [27242762.00 square inches]
+54 Displacements
+1403 Square Feet [202094.00 Square Inches]
+3587 patches before subdivision
+23781 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3037831, max 842
+transfer lists:  23.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(52282, 52268, 51048)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12637, 12640, 12024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3241, 3247, 3016)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(872, 875, 795)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(243, 244, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(70, 70, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(21, 21, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                537/8192         6444/98304    ( 6.6%) 
+brushsides            3521/81920       28168/655360   ( 4.3%) 
+planes                1520/65536       30400/1310720  ( 2.3%) 
+vertexes              5365/65536       64380/786432   ( 8.2%) 
+nodes                 1979/65536       63328/2097152  ( 3.0%) 
+texinfos               452/12288       32544/884736   ( 3.7%) 
+texdata                 24/4096          768/131072   ( 0.6%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            4374/0           87480/0        ( 0.0%) 
+disp_tris             6912/0           13824/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        7932/0            7932/0        ( 0.0%) 
+faces                 3587/65536      200872/3670016  ( 5.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1740/65536       97440/3670016  ( 2.7%) 
+facebrushes            201/0             402/0        ( 0.0%) 
+facebrushlists        3587/0           14348/0        ( 0.0%) 
+leaves                1984/65536       63488/2097152  ( 3.0%) 
+leaffaces             4007/65536        8014/131072   ( 6.1%) 
+leafbrushes           1262/65536        2524/131072   ( 1.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            24444/512000      97776/2048000  ( 4.8%) 
+edges                13892/256000      55568/1024000  ( 5.4%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            260/32768        2600/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4311/65536        8622/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      264933/16777216 ( 1.6%) 
+entdata               [variable]        4309/393216   ( 1.1%) 
+LDR ambient table     1984/65536        7936/262144   ( 3.0%) 
+HDR ambient table     1984/65536        7936/262144   ( 3.0%) 
+LDR leaf ambient      5697/65536      159516/1835008  ( 8.7%) 
+HDR leaf ambient      1984/65536       55552/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10588    ( 0.0%) 
+pakfile               [variable]      150624/0        ( 0.0%) 
+physics               [variable]      201156/4194304  ( 4.8%) 
+physics terrain       [variable]        3186/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 10230
+Writing c:\users\mike\documents\github\de_corked\de_corked.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\mike\documents\github\de_corked\de_corked.bsp', but we don't own that location. Allowing.
+9 seconds elapsed
